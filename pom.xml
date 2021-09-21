@@ -12,8 +12,9 @@
         <developerConnection>scm:git:git@github.com:SonarSource/sq-com_example_java-maven-travis.git</developerConnection>
         <url>https://github.com/SonarSource/sq-com_example_java-maven-travis</url>
     </scm>
-
     <properties>
+          <sonar.organization>visweshsonarcloud</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -31,6 +32,7 @@
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
+        
     </dependencies>
 
     <profiles>
