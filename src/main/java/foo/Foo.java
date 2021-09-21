@@ -8,7 +8,9 @@ public class Foo {
     public static int div(int a, int b) throws Exception {
     	if (b == 0) {
     		throw new UnsupportedOperationException("Can't divide by zero!");
+            
     	}
+        System.out.println("test value");
         return a / b;  
     }
 
